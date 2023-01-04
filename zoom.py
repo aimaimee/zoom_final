@@ -1,18 +1,11 @@
 import streamlit as st
 import pandas as pd
-from pyparsing import empty
 
 st.set_page_config(
     page_title="줌인줌아웃",
     page_icon="📸",
     layout="wide"
 )
-
-empty1,con1,empty2 = st.columns([0.5,0.7,0.5])
-empty1,con2,empty2 = st.columns([0.2,1.0,0.2])
-empyt1,con3,empty2 = st.columns([0.1,1.0,0.1])
-empyt1,con4,empty2 = st.columns([0.1,1.0,0.1])
-empyt1,con5,con6,empty2 = st.columns([0.1,1.0,1.0,0.1])
 
 # sidebar
 with st.sidebar:
